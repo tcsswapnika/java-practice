@@ -4,12 +4,21 @@ public class User {
 	private String name;
 	private Long mobileNumber;
 	private byte age;
+	//constructor
+	
 	
 	public void workout() {
 		System.out.println(name + "is working out..");
 		
 	}
 	
+	public User(String name, Long mobileNumber, byte age) {
+		super();
+		this.name = name;
+		this.mobileNumber = mobileNumber;
+		this.age = age;
+	}
+
 	public String getName() {
 		return name;
 	}
