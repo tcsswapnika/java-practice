@@ -12,6 +12,7 @@ public abstract class Staff {
 }
 
 class HR extends Staff{
+	@Override
 	public void work() {
 		System.out.println("HR is working");
 		
@@ -20,6 +21,7 @@ class HR extends Staff{
 }
 
 class Gaurd extends Staff{
+	@Override
 	public void work() {
 		System.out.println("Gaurd is working");
 		
