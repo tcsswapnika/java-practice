@@ -1,13 +1,13 @@
 package com.tcs.exceptionsdemo;
 
 public class ExceptionDemo {
-	public static void main(String[] args)throws MyCheckedException {
+	public static void main(String[] args) throws MyCheckedException {
 		demo2();
 
 		// demo1();
 	}
 
-	private static void demo2(){
+	private static void demo2() {
 		try {
 			throw new MyCheckedException();
 		} catch (Exception e) {
