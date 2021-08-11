@@ -2,8 +2,9 @@ package com.tcs.exceptionsdemo;
 
 public class ExceptionDemo {
 	public static void main(String[] args) throws MyCheckedException {
-		demo2();
-
+		
+			demo2();
+		
 		// demo1();
 	}
 
@@ -12,7 +13,7 @@ public class ExceptionDemo {
 			throw new MyCheckedException();
 		} catch (Exception e) {
 			// TODO: handle exception
-		}
+		} 
 	}
 
 	private static void demo1() {
