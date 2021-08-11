@@ -12,7 +12,7 @@ public class User {
 		
 	}
 	
-	public User() {
+	public User(String name, Long mobileNumber, byte age) {
 		super();
 		this.name = name;
 		this.mobileNumber = mobileNumber;

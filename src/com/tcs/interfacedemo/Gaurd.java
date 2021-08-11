@@ -1,6 +1,6 @@
 package com.tcs.interfacedemo;
 
-public class Gaurd implements Staff { // all the methods in staff should be used
+public class Gaurd implements IStaff { // all the methods in staff should be used
 
 	@Override
 	public void work() {

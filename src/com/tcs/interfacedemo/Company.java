@@ -5,14 +5,16 @@ import java.util.List;
 
 public class Company {
 	public static void main(String[] args) {
-		Staff staff = new HR();
+		IStaff staff = new HR();
 		staff.work();
-		Staff staff1 = new Gaurd();
-		List<Staff> allStaff = new ArrayList<Staff>();
+		IStaff staff1 = new Gaurd();
+		IStaff staff2 = new HR();
+		List<IStaff> allStaff = new ArrayList<IStaff>();
 		allStaff.add(staff);
 		allStaff.add(staff1);
+		allStaff.add(staff2);
 		System.out.println(allStaff.size());
-		System.out.println(Staff.count);
+		System.out.println(IStaff.count);
 	}
 
 }
